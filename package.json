@@ -1,0 +1,33 @@
+{
+  "name": "onzsa-gateway",
+  "version": "1.0.0",
+  "description": "This app is a gateway module for peripheral devices. (DPS, Receipt Printer, Drawer, etc.)",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/goodexpert/onzsa-gateway.git"
+  },
+  "keywords": [
+    "dps",
+    "scale",
+    "ssl",
+    "tls",
+    "https",
+    "private",
+    "public"
+  ],
+  "author": "Seongwuk Park (seongwuk.park@gmail.com)",
+  "license": "Apache2",
+  "bugs": {
+    "url": "https://github.com/goodexpert/onzsa-gateway/issues"
+  },
+  "homepage": "https://github.com/goodexpert/onzsa-gateway",
+  "dependencies": {
+    "websocket": "^1.0.17",
+    "serialport": "^1.6.1",
+    "debug": "^2.1.1"
+  }
+}
